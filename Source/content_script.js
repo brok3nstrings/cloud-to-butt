@@ -36,10 +36,10 @@ function handleText(textNode)
 {
 	var v = textNode.nodeValue;
 
-	v = v.replace(/\bThe Cloud\b/g, "My Butt");
-	v = v.replace(/\bThe cloud\b/g, "My butt");
-	v = v.replace(/\bthe Cloud\b/g, "my Butt");
-	v = v.replace(/\bthe cloud\b/g, "my butt");
+	v = v.replace(/\bThoughts and Prayers\b/g, "Franks and Beans");
+	v = v.replace(/\bThoughts and prayers\b/g, "Franks and beans");
+	v = v.replace(/\bthoughts and Prayers\b/g, "franks and Beans");
+	v = v.replace(/\bthoughts and prayers\b/g, "franks and beans");
 	
 	textNode.nodeValue = v;
 }
